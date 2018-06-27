@@ -155,4 +155,4 @@ int test(@RequestParam Integer id) {
 
 - [x] 多个DataSource，多个JdbcTemplate时，强烈建议总是使用@Primary把其中某一个Bean标识为“主要的”，使用@Autowired注入时会首先使用被标记为@Primary的Bean
 
-> 启用Transactional的话我们只需要将**@EnableTransactionManagement**增加到项目的启动类中和将**@Transactional**注解增加到我们要做事务的方法上即可
+> 启用Transactional的话我们只需要将 **@EnableTransactionManagement** 增加到项目的启动类中和将 **@Transactional** 注解增加到我们要做事务的方法上即可
